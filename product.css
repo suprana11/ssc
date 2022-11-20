@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%
+}
+h1{
+    text-align: center;
+    margin-top: 2rem;;
+}
+.form-outer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.form {
+    width:400px;
+    height:400px;
+    
+    border: 1px solid black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.form * {
+    padding: 2px;
+    margin: 2px 0;
+}
+.item4 {
+    margin-top:19px;
+    display: flex;
+    justify-content: space-between;
+    padding:3px;
+}
+button {
+    padding: 5px;
+}
